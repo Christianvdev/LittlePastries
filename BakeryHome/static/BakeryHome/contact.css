@@ -1,0 +1,93 @@
+.top-bar {
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    max-height: fit-content;
+}
+
+.top-bar-name {
+    font-family: cursive;
+    font-size: 50px;
+
+    text-decoration: none;
+
+    color: black;
+
+
+}
+
+.top-bar-name:hover {
+    color: lightpink;
+}
+
+.food-tab{
+    background-color:lightpink;
+
+    padding: 30px;
+    margin-top: 50px;
+
+    height: 400px;
+}
+
+.title {
+    background-color: darkseagreen;
+    
+    color:darkolivegreen;
+    background-image: radial-gradient(darkolivegreen 4%, transparent 15%);
+    background-size: 10px 10px;
+
+    margin-top: 100px;
+
+    width: 100vw;
+    height: 100px;
+
+    text-align: center;
+    font-family:cursive;
+    padding-top: 10px;
+}
+
+.contact-board {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightpink;
+    background-image: radial-gradient(white 10%, transparent 15%);
+    background-size: 10px 10px;
+
+    width: 100vw;
+    height: 400px;
+    
+}
+
+.contact-text {
+    color: whitesmoke;
+
+    background-color: rgb(233, 162, 173);
+
+
+    max-width: fit-content;
+    border-radius: 8px;
+
+}
+
+.business-hours-text {
+    background-color: darkseagreen;
+    background-image: radial-gradient(darkolivegreen 4%, transparent 15%);
+    background-size: 10px 10px;
+
+    width: 100vw;
+    height: 150px;
+
+    color: darkolivegreen;
+
+    font-size: x-large;
+    font-family:cursive;
+
+    text-align: center;
+    padding-top: px;
+}

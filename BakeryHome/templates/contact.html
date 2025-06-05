@@ -1,0 +1,34 @@
+{% load static %}
+<html>
+
+    <head>
+        <link rel="stylesheet" href="{%static 'BakeryHome/contact.css'%}">
+    </head>
+
+    <body>
+       
+        <div class="top-bar">
+            <a href="/" class="top-bar-name">{{BakeryInfo.BakeryName}}</a>
+        </div>
+
+
+        <div class="title">
+            <h1>Contact us</h1>
+        </div>
+
+        <div class="contact-board">
+            <h1 class="contact-text">Find us at!</h1>
+            <h1 class="contact-text">{{Info.contactNumber}}</h1>
+            <h1 class="contact-text">{{Info.contactEmail}}</h1>
+        </div>
+
+        <div class="business-hours-text">
+            Find us at 93 blueberry LN<br>
+            Open Mon-Thu 11AM-6PM<br>
+            Times may vary, call for confirmation
+        </div>
+
+
+
+    </body>
+</html>
