@@ -19,3 +19,11 @@ def contactView(request):
     }
 
     return render(request, 'contact.html', InfoDict)
+
+def galleryView(request):
+
+    InfoDict = {
+        'BakeryInfo': BakeryInfo.objects.first(),
+        'GalleryItem' : Items.objects.all()
+    }
+    return render(request,'gallery.html', InfoDict)

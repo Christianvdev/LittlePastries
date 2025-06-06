@@ -11,7 +11,7 @@ class BakeryInfo(models.Model):
     
 
 class Items(models.Model):
-    FoodType = models.CharField(max_length=64)
+    FoodType = models.CharField(max_length=64, default="")
     FoodPrice = models.DecimalField(decimal_places=2,max_digits=4 , default=0.00)
 
     def __str__(self):
